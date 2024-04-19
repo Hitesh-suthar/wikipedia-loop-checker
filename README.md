@@ -55,4 +55,7 @@ The *Wikipedia Loop Checker* project is a web application/API designed to explor
 3. The application fetches the Wikipedia page, follows the first link, and repeats the process until reaching the *Philosophy* page.
 4. It displays the number of requests required and the list of visited pages to the user.
 5. Users can explore different Wikipedia URLs and observe the *Wikipedia Loop* phenomenon in action.
-   
+
+## Front page example
+
+![Front-page](front-page.png)
