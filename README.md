@@ -42,14 +42,12 @@ The *Wikipedia Loop Checker* project is a web application/API designed to explor
    ```
    npm start
    ```
-6. Start node server
-    ```
-   cd ../server
-   ```
+6. Open server folder in another terminal
+7. Start node server
    ```
    npm run dev
    ```
-7. Open chrome to use
+8. Open chrome to use
 
 ## How to use
 1. Visit the web application.
