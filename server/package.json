@@ -1,0 +1,23 @@
+{
+  "name": "wikipedia-loop-checker",
+  "version": "1.0.0",
+  "description": "count and display all the pages visited to reach wikipedia philosophy page starting from any random wikipedia page",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "wikipedia"
+  ],
+  "author": "Hitesh kumar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
