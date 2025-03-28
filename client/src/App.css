@@ -14,13 +14,25 @@
 .header,
 form,
 .data {
-    width: 60%;
+    width: 100%;
     border-radius: 10px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info{
+    width: 90%;
+    padding: 10px;
+    max-width: 800px;
+    text-align: center;
+    color:#1E0342;
+    font-size: 20px;
 }
 
 input {
-    width: 70%;
+    width: 90%;
     height: 30px;
     background-color: transparent;
     border: solid black 1px;
@@ -28,6 +40,7 @@ input {
     margin: 4px;
     padding: 4px;
     font-size: 14px;
+    max-width: 800px;
 }
 
 button {
@@ -39,6 +52,7 @@ button {
     border: solid black 1px;
     background-color: #9AC8CD;
     cursor: pointer;
+    min-width: 150px;
 }
 
 button:hover {
@@ -63,12 +77,13 @@ button:hover {
 }
 
 .list {
-    width: 70%;
+    width: 90%;
     max-height: 50vh;
     border: solid black 1px;
     border-radius: 5px;
     overflow-y: scroll;
     padding: 8px;
+    max-width: 800px;
 }
 .list-items{
     background-color: #9AC8CD;
@@ -76,7 +91,10 @@ button:hover {
     padding: 4px;
     border-radius: 5px;
 }
-
+hr{
+    border: 1px solid black;
+    width: 100%;
+}
 .link{
     text-decoration: none;
     color: #1E0342;
@@ -87,9 +105,10 @@ button:hover {
 
 .success,.failure{
     font-size: 20px;
-    width:80%;
+    width:90%;
     padding: 8px;
     border-radius: 10px;
+    max-width: 800px;
 }
 .success{
     background-color:rgb(7, 194, 7) ;
@@ -101,6 +120,7 @@ button:hover {
 }
 ::-webkit-scrollbar {
     width: 5px;
+    height: 5px;
 }
 
 ::-webkit-scrollbar-track {

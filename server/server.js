@@ -1,9 +1,13 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const wikiRouter = require('./routes/route');
+const cors = require('cors');
 
 const app = express();
-
+const corsOptions = {
+    origin: ""
+}
+app.use(cors(corsOptions));
 app.use(bodyParser.json());
 
 // Routes

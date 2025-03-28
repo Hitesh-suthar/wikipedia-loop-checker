@@ -1,0 +1,16 @@
+{
+  "name": "wikipedia-loop-checker",
+  "version": "1.0.0",
+  "description": "The *Wikipedia Loop Checker* project is a web application/API designed to explore and demonstrate the *Wikipedia Loop* phenomenon. This phenomenon refers to the intriguing pattern where navigating through the first links of Wikipedia articles eventually leads to the *Philosophy* page.",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "cd server && npm install",
+    "start-server": "cd server && node server.js",
+    "install-client": "cd client && npm install",
+    "build-client": "cd client && npm run build",
+    "start-client": "cd client && npm run start"
+  },
+  "keywords": [],
+  "author": "Hitesh kumar",
+  "license": "ISC"
+}
