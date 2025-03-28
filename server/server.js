@@ -5,7 +5,7 @@ const cors = require('cors');
 
 const app = express();
 const corsOptions = {
-    origin: ""
+    origin: "https://wikipedia-loop-checker-lhin.onrender.com"
 }
 app.use(cors(corsOptions));
 app.use(bodyParser.json());
