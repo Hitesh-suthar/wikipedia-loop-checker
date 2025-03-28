@@ -7,7 +7,7 @@ function App() {
 	const [url, setUrl] = useState('');
 	const [result, setResult] = useState(null);
 	const [loading, setLoading] = useState(false);
-	const serverURL = "";
+	const serverURL = "https://wikipedia-loop-checker.onrender.com";
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
